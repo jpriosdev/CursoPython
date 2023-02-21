@@ -17,7 +17,7 @@ print(len(my_string_var))  # tamaño del contenido de la variable
 name, surname, alias, edad = "Juan", "Rios", "ultrademond", 41 #variables en una sola linea
 print("mi nombre completo es", name, " ", surname, " mi edad es:", edad, alias)
 
-nombre = input("Cual es tu nombre: ")
+nombre = input("Cual es tu nombre: ") # Asi se captura info de los usuarios
 edad = input("y tu edad:")
 
 
