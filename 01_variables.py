@@ -20,4 +20,5 @@ print("mi nombre completo es", name, " ", surname, " mi edad es:", edad, alias)
 nombre = input("Cual es tu nombre: ")
 edad = input("y tu edad:")
 
+
 print("tu nombre es: ", nombre, " y tu edad es: ", edad)
