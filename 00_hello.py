@@ -79,5 +79,6 @@ print(my_list)
 print(my_new_list)
 print(my_new_list2)
 
+#Para las demas funcionalidades se continua la documentación en cada archivo según el tema
 
 
