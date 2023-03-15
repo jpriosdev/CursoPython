@@ -1,6 +1,7 @@
 ## List comprehension ###
 import random
 
+
 my_original_list=[5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
 my_list = list()
 

@@ -1,15 +1,14 @@
 ### Exception handling###
 
 try: #Se controlan los errores que se puedan presentar
-
     mi_lista_float = list()
     entrada_str = input("ingrese los valores separados por coma")
     mi_lista_float = entrada_str.split(",")
-
     suma = 0
     for element in mi_lista_float:
         suma += int(mi_lista_float[int(element)-1])
     print(suma)
+
 #Se ejecuta si se presenta algún error pero no se muestra nada de lo que este en el else
 except Exception as error:#Puedo capturar de cualquier tipo y en la variable error capturo el error específico
     #Exception es el más genérico se recoienda primero los otros errores y con exception los restantes
